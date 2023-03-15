@@ -12,7 +12,7 @@
     <artifactId>graalvm-compiler-common</artifactId>
 
     <properties>
-        <mainClass>com.xingray.graalvm.compiler.core.GraalvmCompiler</mainClass>
+        <mainClass>com.xingray.graalvm.compiler.core.GraalvmCompilerImpl</mainClass>
     </properties>
 
     <dependencies>
