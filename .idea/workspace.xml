@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b45859ee-7587-48b4-9807-c0f9db6a135f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-android/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-android/src/main/java/com/xingray/graalvm/compiler/android/config/AndroidResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-android/src/main/java/com/xingray/graalvm/compiler/android/target/AndroidTargetConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-android/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/ProjectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/config/ConfigResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/feature/CustomFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/model/ClassPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/model/InternalProjectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/model/ProcessPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/model/ReleaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/model/Triplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/target/AbstractTargetConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/target/DarwinTargetConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/target/PosixTargetConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/target/TargetConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/FileDeps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/FileOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/ProcessRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/Version.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/VersionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/XcodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/plist/NSArrayEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/plist/NSDictionaryEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/util/plist/NSObjectEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/config/jniconfig-java.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/config/jniconfig-java11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/config/jniconfig-javafxsw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/config/reflectionconfig-java.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/config/reflectionconfig-javafxsw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/ios-deploy/ios-deploy.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/ios-deploy/lldbpatch.diff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/keystore.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/java/com/gluonhq/helloandroid/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/java/com/gluonhq/helloandroid/NativeWebView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/java/com/gluonhq/helloandroid/PermissionRequestActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/java/javafx/scene/input/KeyCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/res/mipmap-ldpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/android_project/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/attach_adapter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/bridge_webview.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/bridge_webview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/dummy.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/glibc_shim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/grandroid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/grandroid_ext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/javafx_adapter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/launcher.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/logger.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/c/touch_events.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/cap/AArch64LibCHelperDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/cap/AMD64LibCHelperDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/cap/BuiltinDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/cap/JNIHeaderDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/cap/LLVMDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/cap/LibFFIHeaderDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/android/cap/PosixDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/Default-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/Entitlements.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/JvmFuncsFallbacks.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-app-store-icon-1024@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-ipad-app-icon-76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-ipad-app-icon-76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-ipad-notifications-icon-20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-ipad-notifications-icon-20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-ipad-pro-app-icon-83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-ipad-settings-icon-29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-ipad-settings-icon-29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-ipad-spotlight-icon-40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-ipad-spotlight-icon-40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-iphone-app-icon-60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-iphone-app-icon-60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-iphone-notification-icon-20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-iphone-notification-icon-20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-iphone-spotlight-icon-40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-iphone-spotlight-icon-40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-iphone-spotlight-settings-icon-29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/AppIcon.appiconset/Gluon-iphone-spotlight-settings-icon-29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Base.lproj/MainScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-375w-667h@2x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-375w-812h-landscape@3x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-375w-812h@3x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-414w-736h-landscape@3x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-414w-736h@3x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-414w-896h-landscape@3x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-414w-896h@3x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-568h@2x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-landscape@2x~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-landscape~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-portrait@2x~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default-portrait~ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/Default@2x~iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/iTunesArtwork" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/assets/iTunesArtwork@2x" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/cap/AArch64LibCHelperDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/cap/AMD64LibCHelperDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/cap/BuiltinDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/cap/JNIHeaderDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/cap/LLVMDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/cap/LibFFIHeaderDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/cap/PosixDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/ios/dummy.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/linux-aarch64/cap/AArch64LibCHelperDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/linux-aarch64/cap/AMD64LibCHelperDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/linux-aarch64/cap/BuiltinDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/linux-aarch64/cap/JNIHeaderDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/linux-aarch64/cap/LibFFIHeaderDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/linux-aarch64/cap/PosixDirectives.cap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/linux/launcher.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/AppIcon.iconset/icon_128@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/AppIcon.iconset/icon_128@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/AppIcon.iconset/icon_16@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/AppIcon.iconset/icon_16@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/AppIcon.iconset/icon_256@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/AppIcon.iconset/icon_256@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/AppIcon.iconset/icon_32@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/AppIcon.iconset/icon_32@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/AppIcon.iconset/icon_512@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/AppIcon.iconset/icon_512@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/Entitlements.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/PkgInfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/background.tiff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/license.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/postinstall.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/preinstall.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/productInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/assets/setup.scpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/macosx/launcher.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/windows/assets/IconGroup.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/windows/assets/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/windows/launcher.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/native/windows/wix/main.wxs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-ios/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/com/xingray/graalvm/compiler/ios/target/IosTargetConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/com/xingray/graalvm/compiler/ios/util/CodeSigning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/com/xingray/graalvm/compiler/ios/util/Deploy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/com/xingray/graalvm/compiler/ios/util/Identity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/com/xingray/graalvm/compiler/ios/util/InfoPlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/com/xingray/graalvm/compiler/ios/util/MobileProvision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/com/xingray/graalvm/compiler/ios/util/Simulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-linux/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-linux/src/main/java/com/xingray/graalvm/compiler/linux/target/LinuxTargetConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-linux/src/main/java/com/xingray/graalvm/compiler/linux/util/LinuxFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-linux/src/main/java/com/xingray/graalvm/compiler/linux/util/LinuxLinkerFlags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-linux/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-macos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-macos/src/main/java/com/xingray/graalvm/compiler/macos/target/MacOSTargetConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-macos/src/main/java/com/xingray/graalvm/compiler/macos/util/CodeSigning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-macos/src/main/java/com/xingray/graalvm/compiler/macos/util/Identity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-macos/src/main/java/com/xingray/graalvm/compiler/macos/util/InfoPlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-macos/src/main/java/com/xingray/graalvm/compiler/macos/util/Packager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-macos/src/main/java/com/xingray/graalvm/compiler/macos/util/ProvisionProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-macos/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-main/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-main/src/main/java/com/xingray/graalvm/compiler/main/GraalvmCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-main/src/main/java/com/xingray/graalvm/compiler/main/Step.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-main/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-web/src/main/java/com/xingray/graalvm/compiler/web/target/WebTargetConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-web/src/main/java/com/xingray/graalvm/compiler/web/util/AheadOfTimeBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-web/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-windows/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/java/com/xingray/graalvm/compiler/windows/target/WindowsTargetConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/java/com/xingray/graalvm/compiler/windows/util/MSIBundler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\develop\maven\repository" />
+        <option name="mavenHome" value="$MAVEN_HOME$" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\develop\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+  </component>
+  <component name="ProjectId" id="2N2ehTjDSFoCXS8vztSmWBZr1eU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;graalvm-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/workspace/java/graalvm/graalvm-compiler/graalvm-compiler-core/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27931035&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\workspace\java\graalvm\graalvm-compiler\graalvm-compiler-core\src\main\resources" />
+      <recent name="D:\code\workspace\java\graalvm\graalvm-compiler\graalvm-compiler-core\src\main\java\com\xingray\graalvm\compiler\core" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="graalvm-compiler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="graalvm-compiler" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b45859ee-7587-48b4-9807-c0f9db6a135f" name="Changes" comment="" />
+      <created>1678866724460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678866724460</updated>
+      <workItem from="1678866725626" duration="147000" />
+      <workItem from="1678866890286" duration="1768000" />
+      <workItem from="1678868679308" duration="2162000" />
+      <workItem from="1678870855676" duration="320000" />
+      <workItem from="1678871187364" duration="731000" />
+      <workItem from="1678871930692" duration="236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
