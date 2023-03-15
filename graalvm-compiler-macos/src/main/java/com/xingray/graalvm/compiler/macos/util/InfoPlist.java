@@ -33,24 +33,22 @@ package com.xingray.graalvm.compiler.macos.util;
 //import com.dd.plist.PropertyListParser;
 
 
-import com.xingray.graalvm.compiler.core.Constants;
-import com.xingray.graalvm.compiler.core.model.ClassPath;
-import com.xingray.graalvm.compiler.core.model.InternalProjectConfiguration;
-import com.xingray.graalvm.compiler.core.model.ProcessPaths;
-import com.xingray.graalvm.compiler.core.model.ReleaseConfiguration;
-import com.xingray.graalvm.compiler.core.util.FileOps;
-import com.xingray.graalvm.compiler.core.util.Logger;
-import com.xingray.graalvm.compiler.core.util.ProcessRunner;
-import com.xingray.graalvm.compiler.core.util.XcodeUtils;
-import com.xingray.graalvm.compiler.core.util.plist.NSDictionaryEx;
+import com.xingray.graalvm.compiler.common.Constants;
+import com.xingray.graalvm.compiler.common.model.ClassPath;
+import com.xingray.graalvm.compiler.common.model.InternalProjectConfiguration;
+import com.xingray.graalvm.compiler.common.model.ProcessPaths;
+import com.xingray.graalvm.compiler.common.model.ReleaseConfiguration;
+import com.xingray.graalvm.compiler.common.util.FileOps;
+import com.xingray.graalvm.compiler.common.util.Logger;
+import com.xingray.graalvm.compiler.common.util.ProcessRunner;
+import com.xingray.graalvm.compiler.common.util.XcodeUtils;
+import com.xingray.graalvm.compiler.common.util.plist.NSDictionaryEx;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
 
 
 public class InfoPlist {

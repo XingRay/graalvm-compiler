@@ -28,10 +28,10 @@
 package com.xingray.graalvm.compiler.ios.util;
 
 
-import com.xingray.graalvm.compiler.core.model.InternalProjectConfiguration;
-import com.xingray.graalvm.compiler.core.model.ProcessPaths;
-import com.xingray.graalvm.compiler.core.util.Logger;
-import com.xingray.graalvm.compiler.core.util.ProcessRunner;
+import com.xingray.graalvm.compiler.common.model.InternalProjectConfiguration;
+import com.xingray.graalvm.compiler.common.model.ProcessPaths;
+import com.xingray.graalvm.compiler.common.util.Logger;
+import com.xingray.graalvm.compiler.common.util.ProcessRunner;
 
 import java.io.IOException;
 import java.util.List;

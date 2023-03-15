@@ -29,12 +29,13 @@ package com.xingray.graalvm.compiler.android.target;
 
 
 import com.xingray.graalvm.compiler.android.config.AndroidResolver;
-import com.xingray.graalvm.compiler.core.Constants;
-import com.xingray.graalvm.compiler.core.model.*;
-import com.xingray.graalvm.compiler.core.target.PosixTargetConfiguration;
-import com.xingray.graalvm.compiler.core.util.FileOps;
-import com.xingray.graalvm.compiler.core.util.Logger;
-import com.xingray.graalvm.compiler.core.util.ProcessRunner;
+import com.xingray.graalvm.compiler.common.Constants;
+import com.xingray.graalvm.compiler.common.Profile;
+import com.xingray.graalvm.compiler.common.model.*;
+import com.xingray.graalvm.compiler.common.target.PosixTargetConfiguration;
+import com.xingray.graalvm.compiler.common.util.FileOps;
+import com.xingray.graalvm.compiler.common.util.Logger;
+import com.xingray.graalvm.compiler.common.util.ProcessRunner;
 
 import java.io.File;
 import java.io.IOException;
@@ -50,7 +51,7 @@ import java.util.zip.ZipFile;
 
 public class AndroidTargetConfiguration extends PosixTargetConfiguration {
 
-    private static final String ANDROID_TRIPLET = new Triplet(Constants.Profile.ANDROID).toString();
+    private static final String ANDROID_TRIPLET = new CompileTask(Profile.ANDROID).toString();
     private static final String ANDROID_MIN_SDK_VERSION = "21";
     private static final List<String> ANDROID_KEYSTORE_EXTENSIONS = List.of(".keystore", ".jks");
     private static final String WL_WHOLE_ARCHIVE = "-Wl,--whole-archive";

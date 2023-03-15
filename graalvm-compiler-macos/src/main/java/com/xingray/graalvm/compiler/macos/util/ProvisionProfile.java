@@ -28,8 +28,8 @@
 package com.xingray.graalvm.compiler.macos.util;
 
 
-import com.xingray.graalvm.compiler.core.util.Logger;
-import com.xingray.graalvm.compiler.core.util.plist.NSDictionaryEx;
+import com.xingray.graalvm.compiler.common.util.Logger;
+import com.xingray.graalvm.compiler.common.util.plist.NSDictionaryEx;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

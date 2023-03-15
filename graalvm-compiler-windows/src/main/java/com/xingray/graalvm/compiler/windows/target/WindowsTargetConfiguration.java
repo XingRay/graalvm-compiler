@@ -27,13 +27,13 @@
  */
 package com.xingray.graalvm.compiler.windows.target;
 
-import com.xingray.graalvm.compiler.core.Constants;
-import com.xingray.graalvm.compiler.core.model.InternalProjectConfiguration;
-import com.xingray.graalvm.compiler.core.model.ProcessPaths;
-import com.xingray.graalvm.compiler.core.target.AbstractTargetConfiguration;
-import com.xingray.graalvm.compiler.core.util.FileOps;
-import com.xingray.graalvm.compiler.core.util.Logger;
-import com.xingray.graalvm.compiler.core.util.ProcessRunner;
+import com.xingray.graalvm.compiler.common.Constants;
+import com.xingray.graalvm.compiler.common.model.InternalProjectConfiguration;
+import com.xingray.graalvm.compiler.common.model.ProcessPaths;
+import com.xingray.graalvm.compiler.common.target.AbstractTargetConfiguration;
+import com.xingray.graalvm.compiler.common.util.FileOps;
+import com.xingray.graalvm.compiler.common.util.Logger;
+import com.xingray.graalvm.compiler.common.util.ProcessRunner;
 import com.xingray.graalvm.compiler.windows.util.MSIBundler;
 
 import java.io.IOException;

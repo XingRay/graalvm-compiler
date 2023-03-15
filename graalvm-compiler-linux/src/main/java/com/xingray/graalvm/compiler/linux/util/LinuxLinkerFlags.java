@@ -28,8 +28,8 @@
 package com.xingray.graalvm.compiler.linux.util;
 
 
-import com.xingray.graalvm.compiler.core.util.Logger;
-import com.xingray.graalvm.compiler.core.util.ProcessRunner;
+import com.xingray.graalvm.compiler.common.util.Logger;
+import com.xingray.graalvm.compiler.common.util.ProcessRunner;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -28,13 +28,13 @@
 package com.xingray.graalvm.compiler.ios.util;
 
 
-import com.xingray.graalvm.compiler.core.model.InternalProjectConfiguration;
-import com.xingray.graalvm.compiler.core.model.ProcessPaths;
-import com.xingray.graalvm.compiler.core.util.FileOps;
-import com.xingray.graalvm.compiler.core.util.Logger;
-import com.xingray.graalvm.compiler.core.util.ProcessRunner;
-import com.xingray.graalvm.compiler.core.util.XcodeUtils;
-import com.xingray.graalvm.compiler.core.util.plist.NSDictionaryEx;
+import com.xingray.graalvm.compiler.common.model.InternalProjectConfiguration;
+import com.xingray.graalvm.compiler.common.model.ProcessPaths;
+import com.xingray.graalvm.compiler.common.util.FileOps;
+import com.xingray.graalvm.compiler.common.util.Logger;
+import com.xingray.graalvm.compiler.common.util.ProcessRunner;
+import com.xingray.graalvm.compiler.common.util.XcodeUtils;
+import com.xingray.graalvm.compiler.common.util.plist.NSDictionaryEx;
 
 import java.io.IOException;
 import java.nio.file.Files;

@@ -1,12 +1,12 @@
 package com.xingray.graalvm.compiler.linux.target;
 
 
-import com.xingray.graalvm.compiler.core.Constants;
-import com.xingray.graalvm.compiler.core.model.InternalProjectConfiguration;
-import com.xingray.graalvm.compiler.core.model.ProcessPaths;
-import com.xingray.graalvm.compiler.core.target.AbstractTargetConfiguration;
-import com.xingray.graalvm.compiler.core.target.PosixTargetConfiguration;
-import com.xingray.graalvm.compiler.core.util.*;
+import com.xingray.graalvm.compiler.common.Constants;
+import com.xingray.graalvm.compiler.common.model.InternalProjectConfiguration;
+import com.xingray.graalvm.compiler.common.model.ProcessPaths;
+import com.xingray.graalvm.compiler.common.target.AbstractTargetConfiguration;
+import com.xingray.graalvm.compiler.common.target.PosixTargetConfiguration;
+import com.xingray.graalvm.compiler.common.util.*;
 import com.xingray.graalvm.compiler.linux.util.LinuxLinkerFlags;
 
 import java.io.BufferedReader;

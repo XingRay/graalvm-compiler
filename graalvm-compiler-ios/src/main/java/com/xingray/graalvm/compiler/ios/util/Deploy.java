@@ -28,10 +28,10 @@
 package com.xingray.graalvm.compiler.ios.util;
 
 
-import com.xingray.graalvm.compiler.core.util.FileOps;
-import com.xingray.graalvm.compiler.core.util.Logger;
-import com.xingray.graalvm.compiler.core.util.ProcessRunner;
-import com.xingray.graalvm.compiler.core.util.XcodeUtils;
+import com.xingray.graalvm.compiler.common.util.FileOps;
+import com.xingray.graalvm.compiler.common.util.Logger;
+import com.xingray.graalvm.compiler.common.util.ProcessRunner;
+import com.xingray.graalvm.compiler.common.util.XcodeUtils;
 
 import java.io.IOException;
 import java.nio.file.Files;

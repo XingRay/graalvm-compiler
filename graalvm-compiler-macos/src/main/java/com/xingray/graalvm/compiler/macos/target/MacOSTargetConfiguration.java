@@ -27,12 +27,12 @@
  */
 package com.xingray.graalvm.compiler.macos.target;
 
-import com.xingray.graalvm.compiler.core.model.InternalProjectConfiguration;
-import com.xingray.graalvm.compiler.core.model.ProcessPaths;
-import com.xingray.graalvm.compiler.core.target.DarwinTargetConfiguration;
-import com.xingray.graalvm.compiler.core.util.FileOps;
-import com.xingray.graalvm.compiler.core.util.Logger;
-import com.xingray.graalvm.compiler.core.util.XcodeUtils;
+import com.xingray.graalvm.compiler.common.model.InternalProjectConfiguration;
+import com.xingray.graalvm.compiler.common.model.ProcessPaths;
+import com.xingray.graalvm.compiler.common.target.DarwinTargetConfiguration;
+import com.xingray.graalvm.compiler.common.util.FileOps;
+import com.xingray.graalvm.compiler.common.util.Logger;
+import com.xingray.graalvm.compiler.common.util.XcodeUtils;
 import com.xingray.graalvm.compiler.macos.util.CodeSigning;
 import com.xingray.graalvm.compiler.macos.util.InfoPlist;
 import com.xingray.graalvm.compiler.macos.util.Packager;

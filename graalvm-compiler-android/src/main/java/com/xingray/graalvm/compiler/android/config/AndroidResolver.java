@@ -28,10 +28,10 @@
 package com.xingray.graalvm.compiler.android.config;
 
 
-import com.xingray.graalvm.compiler.core.Constants;
-import com.xingray.graalvm.compiler.core.model.ClassPath;
-import com.xingray.graalvm.compiler.core.util.FileOps;
-import com.xingray.graalvm.compiler.core.util.Logger;
+import com.xingray.graalvm.compiler.common.Constants;
+import com.xingray.graalvm.compiler.common.model.ClassPath;
+import com.xingray.graalvm.compiler.common.util.FileOps;
+import com.xingray.graalvm.compiler.common.util.Logger;
 
 import java.io.File;
 import java.io.IOException;

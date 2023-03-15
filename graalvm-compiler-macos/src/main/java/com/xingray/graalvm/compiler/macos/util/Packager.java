@@ -30,13 +30,13 @@ package com.xingray.graalvm.compiler.macos.util;
 //import com.dd.plist.NSData;
 //import com.dd.plist.NSDictionary;
 
-import com.xingray.graalvm.compiler.core.Constants;
-import com.xingray.graalvm.compiler.core.model.InternalProjectConfiguration;
-import com.xingray.graalvm.compiler.core.model.ProcessPaths;
-import com.xingray.graalvm.compiler.core.util.FileOps;
-import com.xingray.graalvm.compiler.core.util.Logger;
-import com.xingray.graalvm.compiler.core.util.ProcessRunner;
-import com.xingray.graalvm.compiler.core.util.plist.NSObjectEx;
+import com.xingray.graalvm.compiler.common.Constants;
+import com.xingray.graalvm.compiler.common.model.InternalProjectConfiguration;
+import com.xingray.graalvm.compiler.common.model.ProcessPaths;
+import com.xingray.graalvm.compiler.common.util.FileOps;
+import com.xingray.graalvm.compiler.common.util.Logger;
+import com.xingray.graalvm.compiler.common.util.ProcessRunner;
+import com.xingray.graalvm.compiler.common.util.plist.NSObjectEx;
 
 import java.io.File;
 import java.io.IOException;
