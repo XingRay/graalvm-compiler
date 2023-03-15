@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xingray</groupId>
+    <artifactId>graalvm-compiler</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>graalvm-compiler-core</module>
+        <module>graalvm-compiler-windows</module>
+        <module>graalvm-compiler-macos</module>
+        <module>graalvm-compiler-linux</module>
+        <module>graalvm-compiler-web</module>
+        <module>graalvm-compiler-android</module>
+        <module>graalvm-compiler-ios</module>
+        <module>graalvm-compiler-main</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <graalvm-compiler.version>${project.version}</graalvm-compiler.version>
+    </properties>
+
+    <dependencyManagement>
+
+    </dependencyManagement>
+</project>
