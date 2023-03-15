@@ -9,14 +9,14 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>graalvm-compiler-core</module>
+        <module>graalvm-compiler-common</module>
         <module>graalvm-compiler-windows</module>
         <module>graalvm-compiler-macos</module>
         <module>graalvm-compiler-linux</module>
         <module>graalvm-compiler-web</module>
         <module>graalvm-compiler-android</module>
         <module>graalvm-compiler-ios</module>
-        <module>graalvm-compiler-main</module>
+        <module>graalvm-compiler-core</module>
     </modules>
 
     <properties>

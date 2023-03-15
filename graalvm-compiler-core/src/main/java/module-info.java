@@ -1,9 +1,11 @@
-module com.xingray.graalvm.compiler.core {
-    requires java.logging;
+module com.xingray.graalvm.compiler.main {
+    requires com.xingray.graalvm.compiler.core;
+    requires com.xingray.graalvm.compiler.windows;
+    requires com.xingray.graalvm.compiler.macos;
+    requires com.xingray.graalvm.compiler.linux;
+    requires com.xingray.graalvm.compiler.web;
+    requires com.xingray.graalvm.compiler.android;
+    requires com.xingray.graalvm.compiler.ios;
 
-    exports com.xingray.graalvm.compiler.core;
-    exports com.xingray.graalvm.compiler.core.util;
-    exports com.xingray.graalvm.compiler.core.util.plist;
-    exports com.xingray.graalvm.compiler.core.model;
-    exports com.xingray.graalvm.compiler.core.target;
+
 }

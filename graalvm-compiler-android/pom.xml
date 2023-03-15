@@ -17,7 +17,7 @@
     <dependencies>
         <dependency>
             <groupId>com.xingray</groupId>
-            <artifactId>graalvm-compiler-core</artifactId>
+            <artifactId>graalvm-compiler-common</artifactId>
             <version>${graalvm-compiler.version}</version>
         </dependency>
     </dependencies>

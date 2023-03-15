@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.xingray</groupId>
+        <artifactId>graalvm-compiler</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>graalvm-compiler-common</artifactId>
+
+    <properties>
+        <mainClass>com.xingray.graalvm.compiler.main.GraalvmCompiler</mainClass>
+    </properties>
+
+    <dependencies>
+        <!--<dependency>
+            <groupId>com.googlecode.plist</groupId>
+            <artifactId>dd-plist</artifactId>
+            <version>1.26</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpkix-jdk15on</artifactId>
+            <version>1.70</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>org.graalvm.nativeimage</groupId>
+            <artifactId>svm</artifactId>
+            <version>22.3.1</version>
+        </dependency>
+
+        <!--<dependency>
+            <groupId>org.apidesign.bck2brwsr</groupId>
+            <artifactId>aot</artifactId>
+            <version>0.54</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.9.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
