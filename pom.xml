@@ -24,9 +24,51 @@
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <graalvm-compiler.version>${project.version}</graalvm-compiler.version>
+        <junit.version>5.9.2</junit.version>
+        <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+        <java-common.version>1.0.0</java-common.version>
     </properties>
 
     <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
 
+            <dependency>
+                <groupId>com.xingray</groupId>
+                <artifactId>java-util</artifactId>
+                <version>${java-common.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xingray</groupId>
+                <artifactId>java-command</artifactId>
+                <version>${java-common.version}</version>
+            </dependency>
+<!--
+            <dependency>
+                <groupId>org.graalvm.nativeimage</groupId>
+                <artifactId>svm</artifactId>
+                <version>22.3.1</version>
+            </dependency>-->
+
+        </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <target>${maven.compiler.target}</target>
+                    <source>${maven.compiler.source}</source>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

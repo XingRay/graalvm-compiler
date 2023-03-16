@@ -4,6 +4,12 @@ import com.xingray.graalvm.compiler.common.CompilerException;
 import com.xingray.graalvm.compiler.common.NativeCompiler;
 
 public class AndroidNativeCompiler implements NativeCompiler {
+
+    @Override
+    public int prepare() throws CompilerException {
+        return 0;
+    }
+
     @Override
     public int executeCompile() throws CompilerException {
         return 0;

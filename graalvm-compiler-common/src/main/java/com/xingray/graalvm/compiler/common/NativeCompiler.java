@@ -1,6 +1,8 @@
 package com.xingray.graalvm.compiler.common;
 
 public interface NativeCompiler {
+    int prepare() throws CompilerException;
+
     int executeCompile() throws CompilerException;
 
     int executeLink() throws CompilerException;

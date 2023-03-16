@@ -5,6 +5,11 @@ import com.xingray.graalvm.compiler.common.NativeCompiler;
 
 public class IosNativeCompiler implements NativeCompiler {
     @Override
+    public int prepare() throws CompilerException {
+        return 0;
+    }
+
+    @Override
     public int executeCompile() throws CompilerException {
         return 0;
     }

@@ -4,6 +4,19 @@ import com.xingray.graalvm.compiler.common.CompilerException;
 import com.xingray.graalvm.compiler.common.NativeCompiler;
 
 public class WindowsNativeCompiler implements NativeCompiler {
+
+    private final WindowsArgument windowsArgument;
+
+    public WindowsNativeCompiler(WindowsArgument windowsArgument) {
+        this.windowsArgument = windowsArgument;
+    }
+
+    @Override
+    public int prepare() throws CompilerException {
+        System.out.println("sout: " + windowsArgument);
+        return 0;
+    }
+
     @Override
     public int executeCompile() throws CompilerException {
         return 0;

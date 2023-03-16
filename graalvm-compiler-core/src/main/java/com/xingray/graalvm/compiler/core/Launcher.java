@@ -6,13 +6,14 @@ import java.util.Arrays;
 
 public class Launcher {
     public static void main(String[] args) {
-        CompileProject compileProject = parseArgs(args);
-        if (compileProject == null) {
+        CompileArgument compileArgument = parseArgs(args);
+        if (compileArgument == null) {
             throw new IllegalArgumentException("can not parse compile params, args:" + Arrays.toString(args));
         }
-        GraalvmCompiler compiler = new GraalvmCompiler(compileProject);
+        GraalvmCompiler compiler = new GraalvmCompiler(compileArgument);
 
         try {
+            compiler.prepare();
             compiler.executeCompile();
             compiler.executeLink();
             compiler.executePackage();
@@ -46,13 +47,13 @@ public class Launcher {
 //        }
     }
 
-    public static CompileProject parseArgs(String[] args) {
+    public static CompileArgument parseArgs(String[] args) {
         if (args == null || args.length == 0) {
             return null;
         }
-        CompileProject compileProject = new CompileProject();
+        CompileArgument compileArgument = new CompileArgument();
 
 
-        return compileProject;
+        return compileArgument;
     }
 }

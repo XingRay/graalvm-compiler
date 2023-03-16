@@ -4,6 +4,10 @@ import com.xingray.graalvm.compiler.common.CompilerException;
 import com.xingray.graalvm.compiler.common.NativeCompiler;
 
 public class LinuxNativeCompiler implements NativeCompiler {
+    @Override
+    public int prepare() throws CompilerException {
+        return 0;
+    }
 
     @Override
     public int executeCompile() throws CompilerException {
