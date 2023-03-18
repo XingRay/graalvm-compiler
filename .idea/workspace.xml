@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b45859ee-7587-48b4-9807-c0f9db6a135f" name="Changes" comment="1. 代码调整">
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-android/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-common/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/BuildSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/GradleProjectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/MavenParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/MavenProjectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/ProjectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/CommonAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/IosAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/LinuxAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/MacosAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/WindowsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/configuration/AndroidConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/configuration/CommonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/configuration/IosConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/configuration/LinuxConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/configuration/MacosConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/configuration/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/configuration/WindowsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-linux/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-macos/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-shared-apple/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-shared-apple/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-web/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/java/com/xingray/graalvm/compiler/windows/WindowsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-android/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-android/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-android/src/main/java/com/xingray/graalvm/compiler/android/AndroidNativeCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-android/src/main/java/com/xingray/graalvm/compiler/android/AndroidNativeCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-android/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-android/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-common/src/main/java/com/xingray/graalvm/compiler/common/CommonArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-common/src/main/java/com/xingray/graalvm/compiler/common/CommonArgument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-common/src/main/java/com/xingray/graalvm/compiler/common/CommonPlatform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-common/src/main/java/com/xingray/graalvm/compiler/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-common/src/main/java/com/xingray/graalvm/compiler/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-common/src/main/java/com/xingray/graalvm/compiler/common/model/ProcessPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-common/src/main/java/com/xingray/graalvm/compiler/common/model/ProcessPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-common/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-common/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/CompileArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/CompileConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/GraalvmCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/GraalvmCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/android/AndroidCompileArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/AndroidAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/apple/AppleCommonReleaseArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-shared-apple/src/main/java/com/xingray/graalvm/compiler/shared/apple/AppleCommonReleaseArgument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/apple/ios/IosReleaseArgument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/apple/macos/MacosReleaseArgument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/linux/LinuxReleaseArgument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/web/WebCompilerArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/WebAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core/adapter/windows/WindowsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-core/src/test/java/com/xingray/graalvm/compiler/core/test/WindowsNativeCompilerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-core/src/test/java/com/xingray/graalvm/compiler/core/test/WindowsNativeCompilerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-ios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-ios/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/com/xingray/graalvm/compiler/ios/IosNativeCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/com/xingray/graalvm/compiler/ios/IosNativeCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-ios/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-linux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-linux/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-linux/src/main/java/com/xingray/graalvm/compiler/linux/LinuxNativeCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-linux/src/main/java/com/xingray/graalvm/compiler/linux/LinuxNativeCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-linux/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-linux/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-macos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-macos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-windows/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-windows/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/java/com/xingray/graalvm/compiler/windows/WindowsArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/java/com/xingray/graalvm/compiler/windows/WindowsArgument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/java/com/xingray/graalvm/compiler/windows/WindowsNativeCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/java/com/xingray/graalvm/compiler/windows/WindowsNativeCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/graalvm-compiler-windows/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\develop\maven\repository" />
+        <option name="mavenHome" value="$MAVEN_HOME$" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\develop\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="skipTests" value="true" />
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+  </component>
+  <component name="ProjectId" id="2N2ehTjDSFoCXS8vztSmWBZr1eU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/workspace/java/graalvm/graalvm-compiler/graalvm-compiler-core/src/main/java/com/xingray/graalvm/compiler/core&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27931035&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\workspace\java\graalvm\graalvm-compiler\graalvm-compiler-core\src\main\java\com\xingray\graalvm\compiler\core" />
+      <recent name="D:\code\workspace\java\graalvm\graalvm-compiler\graalvm-compiler-windows\src\main\resources" />
+      <recent name="D:\code\workspace\java\graalvm\graalvm-compiler\graalvm-compiler-web\src\main\resources" />
+      <recent name="D:\code\workspace\java\graalvm\graalvm-compiler\graalvm-compiler-macos\src\main\resources" />
+      <recent name="D:\code\workspace\java\graalvm\graalvm-compiler\graalvm-compiler-linux\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xingray.graalvm.compiler.core" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xingray.graalvm.compiler.web" />
+      <recent name="com.xingray.graalvm.compiler.macos" />
+      <recent name="com.xingray.graalvm.compiler.linux" />
+      <recent name="com.xingray.graalvm.compiler.ios" />
+      <recent name="com.xingray.graalvm.compiler.android" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="WindowsNativeCompilerTest.testCompile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graalvm-compiler-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xingray.graalvm.compiler.core.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xingray.graalvm.compiler.core.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xingray.graalvm.compiler.core.test.WindowsNativeCompilerTest" />
+      <option name="METHOD_NAME" value="testCompile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="graalvm-compiler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="graalvm-compiler" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WindowsNativeCompilerTest.testCompile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b45859ee-7587-48b4-9807-c0f9db6a135f" name="Changes" comment="" />
+      <created>1678866724460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678866724460</updated>
+      <workItem from="1678866725626" duration="147000" />
+      <workItem from="1678866890286" duration="1768000" />
+      <workItem from="1678868679308" duration="2162000" />
+      <workItem from="1678870855676" duration="320000" />
+      <workItem from="1678871187364" duration="731000" />
+      <workItem from="1678871930692" duration="531000" />
+      <workItem from="1678874980543" duration="6623000" />
+      <workItem from="1678882498806" duration="9052000" />
+      <workItem from="1678896159636" duration="4000" />
+      <workItem from="1678896200311" duration="2051000" />
+      <workItem from="1678898284638" duration="72000" />
+      <workItem from="1678898366323" duration="99000" />
+      <workItem from="1678898879737" duration="185000" />
+      <workItem from="1678899074988" duration="93000" />
+      <workItem from="1678899178253" duration="835000" />
+      <workItem from="1678900042943" duration="87000" />
+      <workItem from="1678900155597" duration="20000" />
+      <workItem from="1678900348311" duration="604000" />
+      <workItem from="1678924570934" duration="4856000" />
+      <workItem from="1678948222787" duration="2949000" />
+      <workItem from="1678957718777" duration="133000" />
+      <workItem from="1678957868133" duration="29578000" />
+      <workItem from="1679048190496" duration="1517000" />
+      <workItem from="1679055944898" duration="698000" />
+      <workItem from="1679063919252" duration="291000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1678872251031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678872251031</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1678872265365</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678872265365</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1. 模块命名调整">
+      <created>1678876494728</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678876494728</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1. 模块命名调整">
+      <created>1678876513347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678876513347</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1. 模块命名调整">
+      <created>1678878428843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678878428843</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1. 代码调整">
+      <created>1678881914679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678881914679</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1. 代码调整">
+      <created>1678961831503</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678961831503</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="1. 模块命名调整" />
+    <MESSAGE value="1. 代码调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 代码调整" />
+  </component>
+</project>
