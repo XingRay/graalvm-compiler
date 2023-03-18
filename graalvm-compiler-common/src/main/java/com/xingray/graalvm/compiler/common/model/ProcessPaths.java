@@ -48,7 +48,7 @@ public class ProcessPaths {
 
     /**
      * |-- target/build
-     *     |-- gluonfx                   <!-- buildRoot  -->
+     *     |-- graalvm                   <!-- buildRoot  -->
      *         |-- log
      *         |-- $arch-$os            <!-- $ARCH-$OS  -->
      *             |-- gvm

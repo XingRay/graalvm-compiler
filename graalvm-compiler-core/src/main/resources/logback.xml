@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--<property name="TERMINAL_LOG_PATTERN"
+              value="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level at %c.%M (%F:%L\) %msg%n"/>-->
+
+    <property name="TERMINAL_LOG_PATTERN"
+              value="%c.%M (%F:%L\) %msg%n"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+        <conditionFactory class="ch.qos.logback.classic.conditionFactory.ThresholdFilter">
+            <level>debug</level>
+        </conditionFactory>
+
+        <encoder>
+            <pattern>${TERMINAL_LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

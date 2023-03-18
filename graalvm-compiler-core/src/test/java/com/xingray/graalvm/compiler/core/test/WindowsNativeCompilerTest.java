@@ -2,57 +2,63 @@ package com.xingray.graalvm.compiler.core.test;
 
 import com.xingray.graalvm.compiler.common.CompilerException;
 import com.xingray.graalvm.compiler.common.Platform;
-import com.xingray.graalvm.compiler.core.CompileArgument;
-import com.xingray.graalvm.compiler.core.Constants;
-import com.xingray.graalvm.compiler.core.GraalvmCompiler;
+import com.xingray.graalvm.compiler.core.*;
+import com.xingray.graalvm.compiler.core.configuration.CommonConfiguration;
+import com.xingray.graalvm.compiler.core.configuration.WindowsConfiguration;
 import org.junit.jupiter.api.Test;
 
-import java.util.Collections;
+import java.util.Arrays;
+import java.util.List;
 
 public class WindowsNativeCompilerTest {
     @Test
     public void testCompile() {
-//        CompileArgument compileArgument = new CompileArgument();
-//
-//        compileArgument.setCompilePlatform(Platform.WINDOWS);
-//        compileArgument.setTargetPlatform(Platform.WINDOWS);
-//        compileArgument.setProjectDir("D:\\code\\demo\\javafx\\javafx-graalvm");
-//        compileArgument.setOutputDir(compileArgument.getProjectDir()+"\\"+ Constants.buildPathRelativeToProject+"\\"+Constants.nativeBuildPathRelativeToBuild);
-//        compileArgument.setMainClassName("com.xingray.javafx.graalvm.Launcher");
-//        compileArgument.setClasspath("output/dependency;target/classes");
-//        compileArgument.setGraalvmHome("D:\\develop\\java\\jdk\\graalvm\\19\\graalvm-ce-java19-22.3.1");
-//        compileProject.setJavaVersion();
-//        compileProject.setJavafxVersion();
-//        compileArgument.setPackageType("image");
-//        compileArgument.setDescription("graalvm demo");
-//        compileArgument.setVendor("xingray");
-//        compileArgument.setVersion("1.0.0");
-//
-//        compileArgument.setBundlesList(Collections.emptyList());
-//        compileArgument.setJniList(Collections.emptyList());
-//        compileArgument.setCompilerArgs(Collections.emptyList());
-//        compileArgument.setLinkerArgs(Collections.emptyList());
-//        compileArgument.setRuntimeArgs(Collections.emptyList());
-//        compileArgument.setReflectionList(Collections.emptyList());
-//        compileArgument.setAppId("com.xingray.graalvm-demo");
-//        compileArgument.setAppName("launcher");
-//        compileArgument.setUsePrismSW(false);
-//        compileArgument.setSkipSigning(true);
+        CompileConfiguration compileConfiguration = new CompileConfiguration();
+        compileConfiguration.setTargetPlatform(Platform.WINDOWS);
 
-//        compileArgument.setUsePrismSW(false);
-//        compileArgument.setAppName("launcher");
+        CommonConfiguration commonConfiguration = new CommonConfiguration();
+        compileConfiguration.setCommonConfiguration(commonConfiguration);
 
 
-//        GraalvmCompiler compiler = new GraalvmCompiler(compileArgument);
-//        try {
-//            compiler.executeCompile();
-//            compiler.executeLink();
-//            compiler.executePackage();
-//            compiler.executeInstall();
-//            compiler.executeRun();
-//        } catch (CompilerException e) {
-//            throw new RuntimeException(e);
-//        }
+        ProjectConfiguration project = new ProjectConfiguration();
+        compileConfiguration.setCommonProjectConfiguration(project);
+
+        String projectDir = "D:\\code\\demo\\javafx\\javafx-graalvm";
+        project.setProjectRootPath(projectDir);
+
+//        project.setProjectOutputPath(projectDir + "\\" + Constants.buildPathRelativeToProject + "\\" + Constants.nativeBuildPathRelativeToBuild);
+
+        commonConfiguration.setMainClass("com.xingray.javafx.graalvm.Launcher");
+        commonConfiguration.setClassPathList(Arrays.asList("output/dependency", "target/classes"));
+        commonConfiguration.setGraalvmHome("D:\\develop\\java\\jdk\\graalvm\\19\\graalvm-ce-java19-22.3.1");
+        commonConfiguration.setJavafxPath("D:\\develop\\java\\javafx\\19\\javafx-sdk-19.0.2.1");
+        WindowsConfiguration windowsConfiguration = new WindowsConfiguration();
+        compileConfiguration.setWindowsConfiguration(windowsConfiguration);
+        windowsConfiguration.setEnableSWRendering(false);
+
+        WindowsConfiguration.Release release = new WindowsConfiguration.Release();
+        windowsConfiguration.setReleaseList(List.of(release));
+
+        release.setPackageType("image");
+        release.setDescription("graalvm demo");
+        release.setVendor("xingray");
+        release.setVersionName("1.0.0");
+        release.setId("com.xingray.graalvm-demo");
+        release.setName("launcher");
+
+        compileConfiguration.setBuildSystem(BuildSystem.MAVEN);
+
+        GraalvmCompiler compiler = new GraalvmCompiler(compileConfiguration);
+        try {
+            compiler.prepare();
+            compiler.executeCompile();
+            compiler.executeLink();
+            compiler.executePackage();
+            compiler.executeInstall();
+            compiler.executeRun();
+        } catch (CompilerException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 }

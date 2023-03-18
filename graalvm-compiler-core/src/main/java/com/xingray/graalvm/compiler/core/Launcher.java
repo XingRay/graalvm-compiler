@@ -6,11 +6,11 @@ import java.util.Arrays;
 
 public class Launcher {
     public static void main(String[] args) {
-        CompileArgument compileArgument = parseArgs(args);
-        if (compileArgument == null) {
+        CompileConfiguration compileConfiguration = parseArgs(args);
+        if (compileConfiguration == null) {
             throw new IllegalArgumentException("can not parse compile params, args:" + Arrays.toString(args));
         }
-        GraalvmCompiler compiler = new GraalvmCompiler(compileArgument);
+        GraalvmCompiler compiler = new GraalvmCompiler(compileConfiguration);
 
         try {
             compiler.prepare();
@@ -47,13 +47,13 @@ public class Launcher {
 //        }
     }
 
-    public static CompileArgument parseArgs(String[] args) {
+    public static CompileConfiguration parseArgs(String[] args) {
         if (args == null || args.length == 0) {
             return null;
         }
-        CompileArgument compileArgument = new CompileArgument();
+        CompileConfiguration compileConfiguration = new CompileConfiguration();
 
 
-        return compileArgument;
+        return compileConfiguration;
     }
 }

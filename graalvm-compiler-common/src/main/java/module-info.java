@@ -2,6 +2,7 @@ module com.xingray.graalvm.compiler.common {
     requires java.logging;
     requires com.xingray.java.util;
     requires com.xingray.java.command;
+    requires org.slf4j;
 
     exports com.xingray.graalvm.compiler.common;
     exports com.xingray.graalvm.compiler.common.util;

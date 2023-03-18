@@ -1,4 +1,4 @@
-package com.xingray.graalvm.compiler.core.adapter.apple;
+package com.xingray.graalvm.compiler.shared.apple;
 
 public class AppleCommonReleaseArgument {
 
